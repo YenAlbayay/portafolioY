@@ -1,0 +1,108 @@
+.section.cards {
+  padding-top: 4;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(to top, #ee9ca7, #ffdde1);
+  text-align: center;
+  color: rgb(211, 15, 201);
+  text-align: center;
+  background-image: url("../img/cherryblossom2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 7rem 4rem;
+}
+
+#navbar {
+  background: linear-gradient(to top, #ee9ca7, #ffdde1);
+  font-family: "Arima Madurai", cursive;
+  font-weight: bold 700;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #ffdde1;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #f599ad;
+}
+
+.nav-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+#BIO {
+  background: #6dd5ed;
+}
+
+#EXPERIENCIA {
+  text-align: center inline-block;
+}
+
+#PROYECTOS {
+  background: linear-gradient(to top, #ee9ca7, #ffdde1);
+}
+
+#footer {
+  background: linear-gradient(to top, #ee9ca7, #ffdde1);
+  padding: 2rem;
+  text-align: center;
+}
+
+#footer h2 {
+  font-size: 3rem;
+  padding-right: 3rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+}
+
+#iconos {
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Arima Madurai", cursive;
+  font-weight: bold 700;
+}
+
+h2 {
+  font-family: "Arima Madurai", cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Pompiere", cursive;
+}
+
+h3 {
+  font-family: "Pompiere", cursive;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Pompiere", cursive;
+}
+
+#CONTACTO {
+  text-align: center;
+}
